@@ -1,0 +1,9 @@
+Building bccxgenesis
+
+See doc/readme-qt.rst for instructions on building bccxgenesis QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of bccxgenesis.
+
+See doc/build-*.txt for instructions on building bccxgenesisd,
+the intended-for-services, no-graphical-interface, reference
+implementation of bccxgenesis.
