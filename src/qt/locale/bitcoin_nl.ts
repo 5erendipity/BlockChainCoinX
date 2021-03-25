@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bccxgenesis</source>
-        <translation>Over bccxgenesis</translation>
+        <source>About blockchaincoinx</source>
+        <translation>Over blockchaincoinx</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bccxgenesis&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bccxgenesis&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;blockchaincoinx&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;blockchaincoinx&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bccxgenesis developers</source>
+Copyright © 2014 The blockchaincoinx developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De bccxgenesis ontwikkelaars</translation>
+Copyright © 2014 De blockchaincoinx ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bccxgenesis addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou bccxgenesis adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your blockchaincoinx addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou blockchaincoinx adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bccxgenesis address</source>
-        <translation>Teken een bericht om te bewijzen dat je een bccxgenesis adres bezit.</translation>
+        <source>Sign a message to prove you own a blockchaincoinx address</source>
+        <translation>Teken een bericht om te bewijzen dat je een blockchaincoinx adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bccxgenesis address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek bccxgenesis adres</translation>
+        <source>Verify a message to ensure it was signed with a specified blockchaincoinx address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek blockchaincoinx adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-        <source>bccxgenesis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bccxgenesis zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>blockchaincoinx zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bccxgenesis</source>
-        <translation>Toon informatie over bccxgenesis</translation>
+        <source>Show information about blockchaincoinx</source>
+        <translation>Toon informatie over blockchaincoinx</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bccxgenesis address</source>
-        <translation>Verstuur munten naar een bccxgenesis adres</translation>
+        <source>Send coins to a blockchaincoinx address</source>
+        <translation>Verstuur munten naar een blockchaincoinx adres</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bccxgenesis</source>
-        <translation>Verander configuratie opties voor bccxgenesis</translation>
+        <source>Modify configuration options for blockchaincoinx</source>
+        <translation>Verander configuratie opties voor blockchaincoinx</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-200"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bccxgenesis</source>
-        <translation>&amp;Over bccxgenesis</translation>
+        <source>&amp;About blockchaincoinx</source>
+        <translation>&amp;Over blockchaincoinx</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bccxgenesis client</source>
-        <translation>bccxgenesis client</translation>
+        <source>blockchaincoinx client</source>
+        <translation>blockchaincoinx client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bccxgenesis network</source>
-        <translation><numerusform>%n actieve verbinding naar bccxgenesis netwerk</numerusform><numerusform>%n actieve verbindingen naar bccxgenesis netwerk</numerusform></translation>
+        <source>%n active connection(s) to blockchaincoinx network</source>
+        <translation><numerusform>%n actieve verbinding naar blockchaincoinx netwerk</numerusform><numerusform>%n actieve verbindingen naar blockchaincoinx netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -659,8 +659,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bccxgenesis address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig bccxgenesis adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid blockchaincoinx address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig blockchaincoinx adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -719,8 +719,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bccxgenesis can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . bccxgenesis kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. blockchaincoinx can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . blockchaincoinx kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bccxgenesis address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig bccxgenesis adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig blockchaincoinx adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bccxgenesis-Qt</source>
-        <translation>bccxgenesis-Qt</translation>
+        <source>blockchaincoinx-Qt</source>
+        <translation>blockchaincoinx-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bccxgenesis after logging in to the system.</source>
-        <translation>Automatisch starten van bccxgenesis na inloggen van het systeem.</translation>
+        <source>Automatically start blockchaincoinx after logging in to the system.</source>
+        <translation>Automatisch starten van blockchaincoinx na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bccxgenesis on system login</source>
-        <translation>&amp;Start bccxgenesis bij systeem aanmelding</translation>
+        <source>&amp;Start blockchaincoinx on system login</source>
+        <translation>&amp;Start blockchaincoinx bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1170,8 +1170,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De bccxgenesis client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De blockchaincoinx client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het bccxgenesis netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het blockchaincoinx netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bccxgenesis.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na bccxgenesis opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na blockchaincoinx opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1270,8 +1270,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bccxgenesis addresses in the transaction list or not.</source>
-        <translation>bccxgenesis adressen in de transactielijst weergeven of niet</translation>
+        <source>Whether to show blockchaincoinx addresses in the transaction list or not.</source>
+        <translation>blockchaincoinx adressen in de transactielijst weergeven of niet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1317,8 +1317,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bccxgenesis.</source>
-        <translation>Deze instelling word toegepast na een restart van bccxgenesis.</translation>
+        <source>This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>Deze instelling word toegepast na een restart van blockchaincoinx.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1336,8 +1336,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het bccxgenesis netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het blockchaincoinx netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1552,8 +1552,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bccxgenesis-Qt help message to get a list with possible bccxgenesis command-line options.</source>
-        <translation>Laat het bccxgenesis-QT help bericht zien om een lijst te krijgen met mogelijke bccxgenesis command-regel opties.</translation>
+        <source>Show the blockchaincoinx-Qt help message to get a list with possible blockchaincoinx command-line options.</source>
+        <translation>Laat het blockchaincoinx-QT help bericht zien om een lijst te krijgen met mogelijke blockchaincoinx command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1572,13 +1572,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>bccxgenesis - Debug window</source>
-        <translation>bccxgenesis - Debugscherm</translation>
+        <source>blockchaincoinx - Debug window</source>
+        <translation>blockchaincoinx - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bccxgenesis Core</source>
-        <translation>bccxgenesis Kern</translation>
+        <source>blockchaincoinx Core</source>
+        <translation>blockchaincoinx Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1587,8 +1587,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bccxgenesis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het bccxgenesis debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the blockchaincoinx debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het blockchaincoinx debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1597,8 +1597,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bccxgenesis RPC console.</source>
-        <translation>Welkom bij de bccxgenesis RPC console.</translation>
+        <source>Welcome to the blockchaincoinx RPC console.</source>
+        <translation>Welkom bij de blockchaincoinx RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1756,8 +1756,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een bccxgenesis adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1856,8 +1856,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bccxgenesis address</source>
-        <translation>WAARSCHUWING: Ongeldig bccxgenesis adres</translation>
+        <source>WARNING: Invalid blockchaincoinx address</source>
+        <translation>WAARSCHUWING: Ongeldig blockchaincoinx adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1930,8 +1930,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een bccxgenesis adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1991,8 +1991,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bccxgenesis address</source>
-        <translation>Teken een bericht om te bewijzen dat je een bccxgenesis adres bezit.</translation>
+        <source>Sign the message to prove you own this blockchaincoinx address</source>
+        <translation>Teken een bericht om te bewijzen dat je een blockchaincoinx adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2023,8 +2023,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bccxgenesis address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek bccxgenesis adres</translation>
+        <source>Verify the message to ensure it was signed with the specified blockchaincoinx address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek blockchaincoinx adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2034,8 +2034,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een bccxgenesis adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2044,8 +2044,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bccxgenesis signature</source>
-        <translation>Voer bccxgenesis handtekening in</translation>
+        <source>Enter blockchaincoinx signature</source>
+        <translation>Voer blockchaincoinx handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2615,8 +2615,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bccxgenesis version</source>
-        <translation>bccxgenesis versie</translation>
+        <source>blockchaincoinx version</source>
+        <translation>blockchaincoinx versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2625,8 +2625,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bccxgenesisd</source>
-        <translation>Verstuur commando naar -server of bccxgenesisd</translation>
+        <source>Send command to -server or blockchaincoinxd</source>
+        <translation>Verstuur commando naar -server of blockchaincoinxd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2645,13 +2645,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bccxgenesis.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: bccxgenesis.conf)</translation>
+        <source>Specify configuration file (default: blockchaincoinx.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: blockchaincoinx.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bccxgenesisd.pid)</source>
-        <translation>Selecteer pid bestand (standaard: bccxgenesis.conf)</translation>
+        <source>Specify pid file (default: blockchaincoinxd.pid)</source>
+        <translation>Selecteer pid bestand (standaard: blockchaincoinx.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2800,8 +2800,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bccxgenesis will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is bccxgenesis zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong blockchaincoinx will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is blockchaincoinx zal niet goed werken.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2990,24 +2990,24 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
 Het wordt aanbevolen de volgende willekeurig wachtwoord gebruiken: 
-rpcuser = bccxgenesisrpc
+rpcuser = blockchaincoinxrpc
 rpcpassword = %s 
 (je hoeft niet dit wachtwoord te onthouden) 
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com </translation>
+bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com </translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3131,13 +3131,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;bccxgenesis Alert&quot; adm
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bccxgenesis is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. bccxgenesis wordt waarschijnlijk al uitgevoerd.</translation>
+        <source>Cannot obtain a lock on data directory %s.  blockchaincoinx is probably already running.</source>
+        <translation>Kan een slot op data directory %s niet verkrijgen. blockchaincoinx wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3171,13 +3171,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;bccxgenesis Alert&quot; adm
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bccxgenesis</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van bccxgenesis</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of blockchaincoinx</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van blockchaincoinx</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bccxgenesis to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart bccxgenesis om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart blockchaincoinx to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart blockchaincoinx om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3246,8 +3246,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;bccxgenesis Alert&quot; adm
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bccxgenesis is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. bccxgenesis is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. blockchaincoinx is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. blockchaincoinx is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-97"/>

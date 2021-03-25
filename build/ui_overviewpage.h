@@ -261,7 +261,7 @@ public:
         OverviewPage->setWindowTitle(QApplication::translate("OverviewPage", "Form", 0));
         label_5->setText(QApplication::translate("OverviewPage", "Wallet", 0));
 #ifndef QT_NO_TOOLTIP
-        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.", 0));
+        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.", 0));
 #endif // QT_NO_TOOLTIP
         label->setText(QApplication::translate("OverviewPage", "Spendable:", 0));
 #ifndef QT_NO_TOOLTIP
@@ -285,7 +285,7 @@ public:
 #endif // QT_NO_TOOLTIP
         label_4->setText(QApplication::translate("OverviewPage", "<b>Recent transactions</b>", 0));
 #ifndef QT_NO_TOOLTIP
-        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.", 0));
+        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.", 0));
 #endif // QT_NO_TOOLTIP
     } // retranslateUi
 
