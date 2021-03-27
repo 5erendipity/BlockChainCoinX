@@ -1152,7 +1152,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+3"/>
         <source>&amp;Start blockchaincoinx on system login</source>
-        <translation>&amp;Starta blockchaincoinx vid inloggning</translation>
+        <translation>&amp;Starta BlockChainCoinX vid inloggning</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1757,7 +1757,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Fyll i en blockchaincoinx adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1931,7 +1931,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Fyll i en blockchaincoinx adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2035,7 +2035,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Fyll i en blockchaincoinx adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2616,8 +2616,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>blockchaincoinx version</source>
-        <translation>blockchaincoinx version</translation>
+        <source>BlockChainCoinX version</source>
+        <translation>BlockChainCoinX version</translation>
     </message>
     <message>
         <location line="+1"/>

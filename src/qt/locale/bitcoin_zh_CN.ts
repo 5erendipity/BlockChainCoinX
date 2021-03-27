@@ -1749,7 +1749,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>输入黑币地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1923,7 +1923,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>输入一个黑币地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2027,7 +2027,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>输入黑币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2608,7 +2608,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>blockchaincoinx version</source>
+        <source>BlockChainCoinX version</source>
         <translation>黑币客户端 版本</translation>
     </message>
     <message>

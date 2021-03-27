@@ -264,7 +264,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-58"/>
         <source>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application blockchaincoinx va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <translation>L&apos;application BlockChainCoinX va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1054,7 +1054,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse blockchaincoinx valide.</translation>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse BlockChainCoinX valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1756,7 +1756,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Entrer une adresse blockchaincoinx (par ex: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1930,7 +1930,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Entrer une adresse blockchaincoinx (par ex: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2034,7 +2034,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Entrer une adresse blockchaincoinx (par ex: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2615,7 +2615,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>blockchaincoinx version</source>
+        <source>BlockChainCoinX version</source>
         <translation>Version blockchaincoinx</translation>
     </message>
     <message>

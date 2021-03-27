@@ -1054,7 +1054,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă blockchaincoinx validă</translation>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă BlockChainCoinX validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1756,7 +1756,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Introduceți o adresă blockchaincoinx(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1930,7 +1930,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Introduceți o adresă blockchaincoinx(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2034,7 +2034,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Introduceți o adresă blockchaincoinx(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2615,7 +2615,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>blockchaincoinx version</source>
+        <source>BlockChainCoinX version</source>
         <translation>Versiune blockchaincoinx</translation>
     </message>
     <message>

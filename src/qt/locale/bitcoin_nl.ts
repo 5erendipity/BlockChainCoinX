@@ -1756,7 +1756,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1930,7 +1930,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -2034,7 +2034,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a blockchaincoinx address (e.g. X8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Voeg een blockchaincoinx adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -2615,8 +2615,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>blockchaincoinx version</source>
-        <translation>blockchaincoinx versie</translation>
+        <source>BlockChainCoinX version</source>
+        <translation>BlockChainCoinX versie</translation>
     </message>
     <message>
         <location line="+1"/>

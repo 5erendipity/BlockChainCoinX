@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "%s\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions."),
-QT_TRANSLATE_NOOP("bitcoin-core", "blockchaincoinx version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "BlockChainCoinX version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Usage:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or blockchaincoinxd"),
 QT_TRANSLATE_NOOP("bitcoin-core", "List commands"),
