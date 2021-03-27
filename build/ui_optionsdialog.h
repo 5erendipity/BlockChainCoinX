@@ -368,16 +368,16 @@ public:
         reserveBalanceInfoLabel->setText(QApplication::translate("OptionsDialog", "Reserved amount does not participate in staking and is therefore spendable at any time.", 0));
         reserveBalanceLabel->setText(QApplication::translate("OptionsDialog", "Reserve", 0));
 #ifndef QT_NO_TOOLTIP
-        bitcoinAtStartup->setToolTip(QApplication::translate("OptionsDialog", "Automatically start bccxgenesis after logging in to the system.", 0));
+        bitcoinAtStartup->setToolTip(QApplication::translate("OptionsDialog", "Automatically start blockchaincoinx after logging in to the system.", 0));
 #endif // QT_NO_TOOLTIP
-        bitcoinAtStartup->setText(QApplication::translate("OptionsDialog", "&Start bccxgenesis on system login", 0));
+        bitcoinAtStartup->setText(QApplication::translate("OptionsDialog", "&Start blockchaincoinx on system login", 0));
         tabWidget->setTabText(tabWidget->indexOf(tabMain), QApplication::translate("OptionsDialog", "&Main", 0));
 #ifndef QT_NO_TOOLTIP
-        mapPortUpnp->setToolTip(QApplication::translate("OptionsDialog", "Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.", 0));
+        mapPortUpnp->setToolTip(QApplication::translate("OptionsDialog", "Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.", 0));
 #endif // QT_NO_TOOLTIP
         mapPortUpnp->setText(QApplication::translate("OptionsDialog", "Map port using &UPnP", 0));
 #ifndef QT_NO_TOOLTIP
-        connectSocks->setToolTip(QApplication::translate("OptionsDialog", "Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).", 0));
+        connectSocks->setToolTip(QApplication::translate("OptionsDialog", "Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).", 0));
 #endif // QT_NO_TOOLTIP
         connectSocks->setText(QApplication::translate("OptionsDialog", "&Connect through SOCKS proxy:", 0));
         proxyIpLabel->setText(QApplication::translate("OptionsDialog", "Proxy &IP:", 0));
@@ -404,14 +404,14 @@ public:
         tabWidget->setTabText(tabWidget->indexOf(tabWindow), QApplication::translate("OptionsDialog", "&Window", 0));
         langLabel->setText(QApplication::translate("OptionsDialog", "User Interface &language:", 0));
 #ifndef QT_NO_TOOLTIP
-        lang->setToolTip(QApplication::translate("OptionsDialog", "The user interface language can be set here. This setting will take effect after restarting bccxgenesis.", 0));
+        lang->setToolTip(QApplication::translate("OptionsDialog", "The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.", 0));
 #endif // QT_NO_TOOLTIP
         unitLabel->setText(QApplication::translate("OptionsDialog", "&Unit to show amounts in:", 0));
 #ifndef QT_NO_TOOLTIP
         unit->setToolTip(QApplication::translate("OptionsDialog", "Choose the default subdivision unit to show in the interface and when sending coins.", 0));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        displayAddresses->setToolTip(QApplication::translate("OptionsDialog", "Whether to show bccxgenesis addresses in the transaction list or not.", 0));
+        displayAddresses->setToolTip(QApplication::translate("OptionsDialog", "Whether to show blockchaincoinx addresses in the transaction list or not.", 0));
 #endif // QT_NO_TOOLTIP
         displayAddresses->setText(QApplication::translate("OptionsDialog", "&Display addresses in transaction list", 0));
 #ifndef QT_NO_TOOLTIP

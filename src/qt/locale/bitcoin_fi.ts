@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bccxgenesis</source>
-        <translation>Tietoa bccxgenesisista</translation>
+        <source>About blockchaincoinx</source>
+        <translation>Tietoa blockchaincoinxista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bccxgenesis&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bccxgenesis&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;blockchaincoinx&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;blockchaincoinx&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bccxgenesis developers</source>
+Copyright © 2014 The blockchaincoinx developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bccxgenesis addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat bccxgenesis-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your blockchaincoinx addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat blockchaincoinx-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bccxgenesis address</source>
-        <translation>Allekirjoita viesti osoittaaksesi bccxgenesis-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a blockchaincoinx address</source>
+        <translation>Allekirjoita viesti osoittaaksesi blockchaincoinx-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bccxgenesis address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen bccxgenesis-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified blockchaincoinx address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen blockchaincoinx-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +262,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>bccxgenesis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bccxgenesis-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>blockchaincoinx-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bccxgenesis</source>
-        <translation>Näytä tietoja bccxgenesisista</translation>
+        <source>Show information about blockchaincoinx</source>
+        <translation>Näytä tietoja blockchaincoinxista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bccxgenesis address</source>
-        <translation>Lähetä kolikkoja bccxgenesis osoitteeseen</translation>
+        <source>Send coins to a blockchaincoinx address</source>
+        <translation>Lähetä kolikkoja blockchaincoinx osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bccxgenesis</source>
-        <translation>Mukauta bccxgenesisin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for blockchaincoinx</source>
+        <translation>Mukauta blockchaincoinxin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +471,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +481,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bccxgenesis</source>
-        <translation>&amp;Tietoa bccxgenesisista</translation>
+        <source>&amp;About blockchaincoinx</source>
+        <translation>&amp;Tietoa blockchaincoinxista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +538,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bccxgenesis client</source>
-        <translation>bccxgenesis-asiakas</translation>
+        <source>blockchaincoinx client</source>
+        <translation>blockchaincoinx-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bccxgenesis network</source>
-        <translation><numerusform>%n aktiivinen yhteys bccxgenesis-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä bccxgenesis-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to blockchaincoinx network</source>
+        <translation><numerusform>%n aktiivinen yhteys blockchaincoinx-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä blockchaincoinx-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bccxgenesis address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä bccxgenesis-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid blockchaincoinx address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä blockchaincoinx-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bccxgenesis can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. bccxgenesis-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. blockchaincoinx can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. blockchaincoinx-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bccxgenesis address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty bccxgenesis-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty blockchaincoinx-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bccxgenesis-Qt</source>
-        <translation>bccxgenesis-Qt</translation>
+        <source>blockchaincoinx-Qt</source>
+        <translation>blockchaincoinx-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bccxgenesis after logging in to the system.</source>
-        <translation>Käynnistä bccxgenesis-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start blockchaincoinx after logging in to the system.</source>
+        <translation>Käynnistä blockchaincoinx-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bccxgenesis on system login</source>
-        <translation>%Käynnistä bccxgenesis-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start blockchaincoinx on system login</source>
+        <translation>%Käynnistä blockchaincoinx-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa bccxgenesis-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa blockchaincoinx-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä bccxgenesis-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä blockchaincoinx-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bccxgenesis.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta bccxgenesis-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta blockchaincoinx-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bccxgenesis addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota bccxgenesis-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show blockchaincoinx addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota blockchaincoinx-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bccxgenesis.</source>
-        <translation>Tämä asetus tulee voimaan vasta bccxgenesis-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>Tämä asetus tulee voimaan vasta blockchaincoinx-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti bccxgenesis-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti blockchaincoinx-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bccxgenesis-Qt help message to get a list with possible bccxgenesis command-line options.</source>
-        <translation>Näytä bccxgenesis-Qt:n avustusohje saadaksesi listan käytettävistä bccxgenesisin komentokehotteen määritteistä.</translation>
+        <source>Show the blockchaincoinx-Qt help message to get a list with possible blockchaincoinx command-line options.</source>
+        <translation>Näytä blockchaincoinx-Qt:n avustusohje saadaksesi listan käytettävistä blockchaincoinxin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>bccxgenesis - Debug window</source>
-        <translation>bccxgenesis - Debug-ikkuna</translation>
+        <source>blockchaincoinx - Debug window</source>
+        <translation>blockchaincoinx - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bccxgenesis Core</source>
-        <translation>bccxgenesisin ydin</translation>
+        <source>blockchaincoinx Core</source>
+        <translation>blockchaincoinxin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bccxgenesis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa bccxgenesis-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the blockchaincoinx debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa blockchaincoinx-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bccxgenesis RPC console.</source>
-        <translation>Tervetuloa bccxgenesisin RPC-konsoliin.</translation>
+        <source>Welcome to the blockchaincoinx RPC console.</source>
+        <translation>Tervetuloa blockchaincoinxin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bccxgenesis-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä blockchaincoinx-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bccxgenesis address</source>
-        <translation>VAROITUS: Epäkelpo bccxgenesis-osoite</translation>
+        <source>WARNING: Invalid blockchaincoinx address</source>
+        <translation>VAROITUS: Epäkelpo blockchaincoinx-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bccxgenesis-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä blockchaincoinx-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bccxgenesis address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän bccxgenesis-osoitteen</translation>
+        <source>Sign the message to prove you own this blockchaincoinx address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän blockchaincoinx-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bccxgenesis address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä bccxgenesis-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified blockchaincoinx address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä blockchaincoinx-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä bccxgenesis-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä blockchaincoinx-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bccxgenesis signature</source>
-        <translation>Syötä bccxgenesis-allekirjoitus</translation>
+        <source>Enter blockchaincoinx signature</source>
+        <translation>Syötä blockchaincoinx-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bccxgenesis version</source>
-        <translation>bccxgenesisin versio</translation>
+        <source>blockchaincoinx version</source>
+        <translation>blockchaincoinxin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bccxgenesisd</source>
-        <translation>Syötä komento kohteeseen -server tai bccxgenesisd</translation>
+        <source>Send command to -server or blockchaincoinxd</source>
+        <translation>Syötä komento kohteeseen -server tai blockchaincoinxd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,13 +2643,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bccxgenesis.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: bccxgenesis.conf)</translation>
+        <source>Specify configuration file (default: blockchaincoinx.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: blockchaincoinx.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bccxgenesisd.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: bccxgenesis.pid)</translation>
+        <source>Specify pid file (default: blockchaincoinxd.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: blockchaincoinx.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bccxgenesis will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, bccxgenesis ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong blockchaincoinx will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, blockchaincoinx ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,23 +2988,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,13 +3129,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bccxgenesis is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. bccxgenesis-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  blockchaincoinx is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. blockchaincoinx-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3169,13 +3169,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bccxgenesis</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version bccxgenesis-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of blockchaincoinx</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version blockchaincoinx-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bccxgenesis to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä bccxgenesis-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart blockchaincoinx to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä blockchaincoinx-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3244,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bccxgenesis is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. bccxgenesis-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. blockchaincoinx is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. blockchaincoinx-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

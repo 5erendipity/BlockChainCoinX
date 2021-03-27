@@ -5,19 +5,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bccxgenesis</source>
-        <translation>About bccxgenesis</translation>
+        <source>About blockchaincoinx</source>
+        <translation>About blockchaincoinx</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bccxgenesis&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bccxgenesis&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;blockchaincoinx&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;blockchaincoinx&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bccxgenesis developers</source>
+Copyright © 2014 The blockchaincoinx developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -65,8 +65,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bccxgenesis addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your bccxgenesis addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your blockchaincoinx addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your blockchaincoinx addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bccxgenesis address</source>
-        <translation>Sign a message to prove you own a bccxgenesis address</translation>
+        <source>Sign a message to prove you own a blockchaincoinx address</source>
+        <translation>Sign a message to prove you own a blockchaincoinx address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bccxgenesis address</source>
-        <translation>Verify a message to ensure it was signed with a specified bccxgenesis address</translation>
+        <source>Verify a message to ensure it was signed with a specified blockchaincoinx address</source>
+        <translation>Verify a message to ensure it was signed with a specified blockchaincoinx address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>bccxgenesis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bccxgenesis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bccxgenesis</source>
-        <translation>Show information about bccxgenesis</translation>
+        <source>Show information about blockchaincoinx</source>
+        <translation>Show information about blockchaincoinx</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bccxgenesis address</source>
-        <translation>Send coins to a bccxgenesis address</translation>
+        <source>Send coins to a blockchaincoinx address</source>
+        <translation>Send coins to a blockchaincoinx address</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bccxgenesis</source>
-        <translation>Modify configuration options for bccxgenesis</translation>
+        <source>Modify configuration options for blockchaincoinx</source>
+        <translation>Modify configuration options for blockchaincoinx</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bccxgenesis</source>
-        <translation>&amp;About bccxgenesis</translation>
+        <source>&amp;About blockchaincoinx</source>
+        <translation>&amp;About blockchaincoinx</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,15 +542,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bccxgenesis client</source>
-        <translation>bccxgenesis client</translation>
+        <source>blockchaincoinx client</source>
+        <translation>blockchaincoinx client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bccxgenesis network</source>
+        <source>%n active connection(s) to blockchaincoinx network</source>
         <translation>
-            <numerusform>%n active connection to bccxgenesis network</numerusform>
-            <numerusform>%n active connections to bccxgenesis network</numerusform>
+            <numerusform>%n active connection to blockchaincoinx network</numerusform>
+            <numerusform>%n active connections to blockchaincoinx network</numerusform>
         </translation>
     </message>
     <message>
@@ -677,8 +677,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bccxgenesis address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid bccxgenesis address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid blockchaincoinx address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid blockchaincoinx address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -749,8 +749,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bccxgenesis can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. bccxgenesis can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. blockchaincoinx can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. blockchaincoinx can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1069,8 +1069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bccxgenesis address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid bccxgenesis address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1088,8 +1088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>bccxgenesis-Qt</source>
-        <translation>bccxgenesis-Qt</translation>
+        <source>blockchaincoinx-Qt</source>
+        <translation>blockchaincoinx-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1161,13 +1161,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bccxgenesis after logging in to the system.</source>
-        <translation>Automatically start bccxgenesis after logging in to the system.</translation>
+        <source>Automatically start blockchaincoinx after logging in to the system.</source>
+        <translation>Automatically start blockchaincoinx after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bccxgenesis on system login</source>
-        <translation>&amp;Start bccxgenesis on system login</translation>
+        <source>&amp;Start blockchaincoinx on system login</source>
+        <translation>&amp;Start blockchaincoinx on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1186,8 +1186,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1196,8 +1196,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1271,8 +1271,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bccxgenesis.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting bccxgenesis.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1286,8 +1286,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bccxgenesis addresses in the transaction list or not.</source>
-        <translation>Whether to show bccxgenesis addresses in the transaction list or not.</translation>
+        <source>Whether to show blockchaincoinx addresses in the transaction list or not.</source>
+        <translation>Whether to show blockchaincoinx addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1333,8 +1333,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bccxgenesis.</source>
-        <translation>This setting will take effect after restarting bccxgenesis.</translation>
+        <source>This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>This setting will take effect after restarting blockchaincoinx.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1352,8 +1352,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1568,8 +1568,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bccxgenesis-Qt help message to get a list with possible bccxgenesis command-line options.</source>
-        <translation>Show the bccxgenesis-Qt help message to get a list with possible bccxgenesis command-line options.</translation>
+        <source>Show the blockchaincoinx-Qt help message to get a list with possible blockchaincoinx command-line options.</source>
+        <translation>Show the blockchaincoinx-Qt help message to get a list with possible blockchaincoinx command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1588,13 +1588,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>bccxgenesis - Debug window</source>
-        <translation>bccxgenesis - Debug window</translation>
+        <source>blockchaincoinx - Debug window</source>
+        <translation>blockchaincoinx - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bccxgenesis Core</source>
-        <translation>bccxgenesis Core</translation>
+        <source>blockchaincoinx Core</source>
+        <translation>blockchaincoinx Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1603,8 +1603,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bccxgenesis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the bccxgenesis debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the blockchaincoinx debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the blockchaincoinx debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1613,8 +1613,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bccxgenesis RPC console.</source>
-        <translation>Welcome to the bccxgenesis RPC console.</translation>
+        <source>Welcome to the blockchaincoinx RPC console.</source>
+        <translation>Welcome to the blockchaincoinx RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1772,8 +1772,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1872,7 +1872,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bccxgenesis address</source>
+        <source>WARNING: Invalid blockchaincoinx address</source>
         <translation></translation>
     </message>
     <message>
@@ -1946,8 +1946,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2007,8 +2007,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bccxgenesis address</source>
-        <translation>Sign the message to prove you own this bccxgenesis address</translation>
+        <source>Sign the message to prove you own this blockchaincoinx address</source>
+        <translation>Sign the message to prove you own this blockchaincoinx address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2039,8 +2039,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bccxgenesis address</source>
-        <translation>Verify the message to ensure it was signed with the specified bccxgenesis address</translation>
+        <source>Verify the message to ensure it was signed with the specified blockchaincoinx address</source>
+        <translation>Verify the message to ensure it was signed with the specified blockchaincoinx address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2050,8 +2050,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2060,8 +2060,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bccxgenesis signature</source>
-        <translation>Enter bccxgenesis signature</translation>
+        <source>Enter blockchaincoinx signature</source>
+        <translation>Enter blockchaincoinx signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2643,8 +2643,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bccxgenesis version</source>
-        <translation>bccxgenesis version</translation>
+        <source>blockchaincoinx version</source>
+        <translation>blockchaincoinx version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2653,8 +2653,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bccxgenesisd</source>
-        <translation>Send command to -server or bccxgenesisd</translation>
+        <source>Send command to -server or blockchaincoinxd</source>
+        <translation>Send command to -server or blockchaincoinxd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2673,13 +2673,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bccxgenesis.conf)</source>
-        <translation>Specify configuration file (default: bccxgenesis.conf)</translation>
+        <source>Specify configuration file (default: blockchaincoinx.conf)</source>
+        <translation>Specify configuration file (default: blockchaincoinx.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bccxgenesisd.pid)</source>
-        <translation>Specify pid file (default: bccxgenesisd.pid)</translation>
+        <source>Specify pid file (default: blockchaincoinxd.pid)</source>
+        <translation>Specify pid file (default: blockchaincoinxd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2828,8 +2828,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bccxgenesis will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bccxgenesis will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong blockchaincoinx will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong blockchaincoinx will not work properly.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3017,13 +3017,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3149,13 +3149,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bccxgenesis is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  bccxgenesis is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  blockchaincoinx is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  blockchaincoinx is probably already running.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3189,13 +3189,13 @@ for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bccxgenesis</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of bccxgenesis</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of blockchaincoinx</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of blockchaincoinx</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bccxgenesis to complete</source>
-        <translation>Wallet needed to be rewritten: restart bccxgenesis to complete</translation>
+        <source>Wallet needed to be rewritten: restart blockchaincoinx to complete</source>
+        <translation>Wallet needed to be rewritten: restart blockchaincoinx to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3264,8 +3264,8 @@ for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bccxgenesis is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. bccxgenesis is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. blockchaincoinx is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. blockchaincoinx is probably already running.</translation>
     </message>
     <message>
         <location line="-97"/>

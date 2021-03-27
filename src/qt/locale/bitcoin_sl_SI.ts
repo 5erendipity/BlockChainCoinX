@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About bccxgenesis</source>
-        <translation>O bccxgenesis</translation>
+        <source>About blockchaincoinx</source>
+        <translation>O blockchaincoinx</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;bccxgenesis&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;bccxgenesis&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;blockchaincoinx&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;blockchaincoinx&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The bccxgenesis developers</source>
+Copyright © 2014 The blockchaincoinx developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your bccxgenesis addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši bccxgenesis naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your blockchaincoinx addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši blockchaincoinx naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a bccxgenesis address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva bccxgenesis naslova</translation>
+        <source>Sign a message to prove you own a blockchaincoinx address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva blockchaincoinx naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified bccxgenesis address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim bccxgenesis naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified blockchaincoinx address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim blockchaincoinx naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>bccxgenesis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>bccxgenesis se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>blockchaincoinx will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>blockchaincoinx se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about bccxgenesis</source>
-        <translation>Pokaži informacije o bccxgenesis</translation>
+        <source>Show information about blockchaincoinx</source>
+        <translation>Pokaži informacije o blockchaincoinx</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a bccxgenesis address</source>
-        <translation>Pošlji kovance na bccxgenesis naslov</translation>
+        <source>Send coins to a blockchaincoinx address</source>
+        <translation>Pošlji kovance na blockchaincoinx naslov</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for bccxgenesis</source>
-        <translation>Spremeni nastavitve za bccxgenesis</translation>
+        <source>Modify configuration options for blockchaincoinx</source>
+        <translation>Spremeni nastavitve za blockchaincoinx</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-200"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About bccxgenesis</source>
-        <translation>&amp;O bccxgenesis</translation>
+        <source>&amp;About blockchaincoinx</source>
+        <translation>&amp;O blockchaincoinx</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>bccxgenesis client</source>
-        <translation>bccxgenesis program</translation>
+        <source>blockchaincoinx client</source>
+        <translation>blockchaincoinx program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to bccxgenesis network</source>
-        <translation><numerusform>%n aktivne povezave na bccxgenesis omrežje</numerusform><numerusform>%n aktivnih povezav na bccxgenesis omrežje</numerusform><numerusform>%n aktivnih povezav na bccxgenesis omrežje</numerusform><numerusform>%n aktivnih povezav na bccxgenesis omrežje</numerusform></translation>
+        <source>%n active connection(s) to blockchaincoinx network</source>
+        <translation><numerusform>%n aktivne povezave na blockchaincoinx omrežje</numerusform><numerusform>%n aktivnih povezav na blockchaincoinx omrežje</numerusform><numerusform>%n aktivnih povezav na blockchaincoinx omrežje</numerusform><numerusform>%n aktivnih povezav na blockchaincoinx omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid bccxgenesis address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega bccxgenesis naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid blockchaincoinx address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega blockchaincoinx naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. bccxgenesis can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program bccxgenesis se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. blockchaincoinx can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program blockchaincoinx se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid bccxgenesis address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven bccxgenesis naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid blockchaincoinx address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven blockchaincoinx naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>bccxgenesis-Qt</source>
-        <translation>bccxgenesis-Qt</translation>
+        <source>blockchaincoinx-Qt</source>
+        <translation>blockchaincoinx-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start bccxgenesis after logging in to the system.</source>
-        <translation>Avtomatično zaženi bccxgenesis ob zagonu sistema.</translation>
+        <source>Automatically start blockchaincoinx after logging in to the system.</source>
+        <translation>Avtomatično zaženi blockchaincoinx ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start bccxgenesis on system login</source>
-        <translation>&amp;Zaženi bccxgenesis ob prijavi v sistem</translation>
+        <source>&amp;Start blockchaincoinx on system login</source>
+        <translation>&amp;Zaženi blockchaincoinx ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the bccxgenesis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za bccxgenesis program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the blockchaincoinx client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za blockchaincoinx program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the bccxgenesis network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na bccxgenesis omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the blockchaincoinx network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na blockchaincoinx omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting bccxgenesis.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu bccxgenesis aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu blockchaincoinx aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show bccxgenesis addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza bccxgenesis naslovov v seznamu transakcij.</translation>
+        <source>Whether to show blockchaincoinx addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza blockchaincoinx naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting bccxgenesis.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu bccxgenesis aplikacije</translation>
+        <source>This setting will take effect after restarting blockchaincoinx.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu blockchaincoinx aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bccxgenesis network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z bccxgenesis omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the blockchaincoinx network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z blockchaincoinx omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the bccxgenesis-Qt help message to get a list with possible bccxgenesis command-line options.</source>
-        <translation>Prikaži bccxgenesis-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice bccxgenesis aplikacije</translation>
+        <source>Show the blockchaincoinx-Qt help message to get a list with possible blockchaincoinx command-line options.</source>
+        <translation>Prikaži blockchaincoinx-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice blockchaincoinx aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>bccxgenesis - Debug window</source>
-        <translation>bccxgenesis - okno za odpravljanje napak</translation>
+        <source>blockchaincoinx - Debug window</source>
+        <translation>blockchaincoinx - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>bccxgenesis Core</source>
-        <translation>bccxgenesis jedro</translation>
+        <source>blockchaincoinx Core</source>
+        <translation>blockchaincoinx jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the bccxgenesis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri bccxgenesis datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the blockchaincoinx debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri blockchaincoinx datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the bccxgenesis RPC console.</source>
-        <translation>Dobrodošli v bccxgenesis RPC konzoli.</translation>
+        <source>Welcome to the blockchaincoinx RPC console.</source>
+        <translation>Dobrodošli v blockchaincoinx RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bccxgenesis naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite blockchaincoinx naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid bccxgenesis address</source>
-        <translation>OPOZORILO: Neveljaven bccxgenesis naslov</translation>
+        <source>WARNING: Invalid blockchaincoinx address</source>
+        <translation>OPOZORILO: Neveljaven blockchaincoinx naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bccxgenesis naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite blockchaincoinx naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this bccxgenesis address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva bccxgenesis naslova</translation>
+        <source>Sign the message to prove you own this blockchaincoinx address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva blockchaincoinx naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified bccxgenesis address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim bccxgenesis naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified blockchaincoinx address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim blockchaincoinx naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a bccxgenesis address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite bccxgenesis naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a blockchaincoinx address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite blockchaincoinx naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter bccxgenesis signature</source>
-        <translation>Vnesite bccxgenesis podpis</translation>
+        <source>Enter blockchaincoinx signature</source>
+        <translation>Vnesite blockchaincoinx podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>bccxgenesis version</source>
-        <translation>bccxgenesis različica</translation>
+        <source>blockchaincoinx version</source>
+        <translation>blockchaincoinx različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,7 +2623,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bccxgenesisd</source>
+        <source>Send command to -server or blockchaincoinxd</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2643,13 +2643,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bccxgenesis.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: bccxgenesis.conf)</translation>
+        <source>Specify configuration file (default: blockchaincoinx.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: blockchaincoinx.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bccxgenesisd.pid)</source>
-        <translation>Določi pid datoteko (privzeto: bccxgenesis.pid)</translation>
+        <source>Specify pid file (default: blockchaincoinxd.pid)</source>
+        <translation>Določi pid datoteko (privzeto: blockchaincoinx.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bccxgenesis will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno bccxgenesis ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong blockchaincoinx will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno blockchaincoinx ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,24 +2988,24 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-rpcuser=bccxgenesisrpc
+rpcuser=blockchaincoinxrpc
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;blockchaincoinx Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,13 +3130,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alarm&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  bccxgenesis is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija bccxgenesis je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  blockchaincoinx is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija blockchaincoinx je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>bccxgenesis</source>
-        <translation>bccxgenesis</translation>
+        <source>blockchaincoinx</source>
+        <translation>blockchaincoinx</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alarm&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of bccxgenesis</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo bccxgenesis</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of blockchaincoinx</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo blockchaincoinx</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart bccxgenesis to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite bccxgenesis za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart blockchaincoinx to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite blockchaincoinx za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;bccxgenesis Alarm&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. bccxgenesis is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča bccxgenesis aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. blockchaincoinx is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča blockchaincoinx aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>
