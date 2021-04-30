@@ -128,11 +128,11 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About bccxgenesis", 0));
-        label->setText(QApplication::translate("AboutDialog", "<b>bccxgenesis</b> version", 0));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About blockchaincoinx", 0));
+        label->setText(QApplication::translate("AboutDialog", "<b>blockchaincoinx</b> version", 0));
         copyrightLabel->setText(QApplication::translate("AboutDialog", "Copyright \302\251 2009-2014 The Bitcoin developers\n"
 "Copyright \302\251 2012-2014 The NovaCoin developers\n"
-"Copyright \302\251 2018 The bccxgenesis developers", 0));
+"Copyright \302\251 2021 The BlockChainCoinX developers", 0));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
 "This is experimental software.\n"
 "\n"
