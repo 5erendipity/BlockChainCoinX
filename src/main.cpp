@@ -42,7 +42,7 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 2 * 60; // 2 minute // RR Zafar
 unsigned int nStakeMinAge = 1 * 60 * 60; // RR Zafar
-unsigned int nStakeMaxAge = 90; //RR CDR
+unsigned int nStakeMaxAge = 90; //if (pindexBest->nHeight > 331133){ //RR 6
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 100; //RR Zafar
