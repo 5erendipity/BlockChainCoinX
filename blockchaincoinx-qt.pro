@@ -18,17 +18,17 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
 BOOST_LIB_SUFFIX=
-BOOST_INCLUDE_PATH=/home/dad/Downloads/boost_1_65_1
-BOOST_LIB_PATH=/home/dad/Downloads/boost_1_65_1/stage/lib
-BDB_INCLUDE_PATH=/usr/share/doc/db-5.3.28
-BDB_LIB_PATH=/usr/lib
-OPENSSL_INCLUDE_PATH=/home/dad/Downloads/BlockChainCoinX/openssl-1.0.2a/include
-OPENSSL_LIB_PATH=/home/dad/Downloads/BlockChainCoinX/openssl-1.0.2a
+BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
+BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
+BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
+BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
+OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1j/include
+OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1j
 MINIUPNPC_LIB_SUFFIX=-miniupnpc
-MINIUPNPC_INCLUDE_PATH=/user/include/miniupnpc
-MINIUPNPC_LIB_PATH=/user/include/miniupnpc
-QRENCODE_INCLUDE_PATH=/usr/local/qrencode-3.4.4
-QRENCODE_LIB_PATH=/usr/local/qrencode-3.4.4/.libs
+MINIUPNPC_INCLUDE_PATH=C:/deps/miniupnpc
+MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
+QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,

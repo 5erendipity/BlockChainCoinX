@@ -15,16 +15,16 @@ USE_UPNP:=0
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"/home/dad/Downloads/BlockChainCoinX/src/obj"/obj \
- -I"/home/dad/Downloads/boost_1_65_1" \
- -I"/usr/share/doc/db-5.3.28" \
- -I"/home/dad/Downloads/BlockChainCoinX/openssl-1.0.2a/include" \
- -I"/usr/include"
+ -I"$(CURDIR)"/obj \
+ -I"$(DEPSDIR)/boost_1_55_0" \
+ -I"$(DEPSDIR)/db-6.0.20/build_unix" \
+ -I"$(DEPSDIR)/openssl-1.0.1f/include" \
+ -I"$(DEPSDIR)"
 
 LIBPATHS= \
- -L"/home/dad/Downloads/boost_1_65_1/stage/lib" \
- -L"/usr/lib" \
- -L"/home/dad/Downloads/BlockChainCoinX/openssl-1.0.2a"
+ -L"$(DEPSDIR)/boost_1_55_0/stage/lib" \
+ -L"$(DEPSDIR)/db-6.0.20/build_unix" \
+ -L"$(DEPSDIR)/openssl-1.0.1f"
 
 LIBS= \
  -l boost_system-mt \
