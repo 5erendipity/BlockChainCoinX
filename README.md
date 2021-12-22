@@ -8,3 +8,4 @@ BCCX provides a dynamic, automated, intelligent, system, for transaction validat
 It is a Secure, Hybrid Scrypt/Proof Of Stake coin-chain, with a dynamic market driven value.
 
 ## BCCX Infinity Update   11/11/21 (Mandatory)
+(1.0.0./60016 is not supported 12/11/21)
