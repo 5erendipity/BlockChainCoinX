@@ -42,7 +42,7 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 2 * 60; // 2 minute // RR Zafar
 unsigned int nStakeMinAge = 1 * 60 * 60; // RR Zafar
-unsigned int nStakeMaxAge = 90; //RR CDR
+unsigned int nStakeMaxAge = 24 * 60 * 60 * 90; //if (pindexBest->nHeight > 331133){ // 6
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 100; //RR Zafar
@@ -1006,6 +1006,11 @@ int64_t GetProofOfWorkReward(int64_t nFees)
             if(nBestHeight == 0)
             {
             nSubsidy = 14700000 * COIN; // RR Zafar
+            }
+    
+            else if(nBestHeight > 91119)
+            {
+            nSubsidy = 0.0111 * COIN; // 6
             }
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -2123,9 +2128,10 @@ bool CBlock::AcceptBlock()
         return DoS(10, error("AcceptBlock() : prev block not found"));
     CBlockIndex* pindexPrev = (*mi).second;
     int nHeight = pindexPrev->nHeight+1;
-
-    if (IsProofOfWork() && nHeight > LAST_POW_BLOCK)
-        return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
+    
+       // [FreedoM] 
+    /* if (IsProofOfWork() && nHeight > LAST_POW_BLOCK)
+        return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));*/
 
     // Check proof-of-work or proof-of-stake
     if (nBits != GetNextTargetRequired(pindexPrev, IsProofOfStake()))
