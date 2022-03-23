@@ -4,6 +4,10 @@
 A free community coin,  
 supported exclusively by   
 volunteers in our community.
+
+A secure, transparent, digital, medium of exchange  
+for non reversible intellectual property services. 
+
   
  
 *BCCX* is a cryptocurrency blockchain,  
