@@ -29,6 +29,6 @@ __________________________________________________________
 *XCCX Infinity (61116) !YaY! 03/20/22 (Mandatory)*  
 (1.1.0./61016 is not supported 03/20/22) by U.A.S.F.
 
-*XCCX Infinity (61116) XOOX 02/03/23 v1.1.1.1.*
+*XCCX Infinity (61116) XOOX 02/03/23 v1.1.1.1.*  
 (1.1.1./61116 is not supported 02/03/23) by U.A.S.F.
  
