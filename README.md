@@ -35,7 +35,7 @@ __________________________________________________________
 (1.1.1. is no longer supported as of 02/03/23) by U.A.S.F.  
 
 
-*XCCX* v1.1.1.1x (61116) XOOX 02/03/23  (current) CORE 
+*XCCX* v1.1.1.1x (61116) XOOX 02/03/23  (current) CORE  
 https://github.com/5erendipity/BlockChainCoinX/releases  
  
 *Vires In Numeris*
