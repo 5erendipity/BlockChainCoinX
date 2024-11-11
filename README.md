@@ -44,10 +44,17 @@ __________________________________________________________
 
 Tokenized BlockChainCoinX (XCCX)  
 
+
  
 ![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/2a2e259f-efa6-4eea-b885-0c529b77375a)
-  ERC-20 TOKEN CONTRACT  
+  POL ERC-20 TOKEN CONTRACT  
 https://polygonscan.com/token/0x2075828cdedc356b5358d79cfd314548842e4a2e  
+
+
+
+![solana](https://github.com/user-attachments/assets/4a46a710-97d4-4258-a8fa-ecf511652e13)
+  SPL TOKEN CONTRACT  
+https://solscan.io/token/giSmRQsV12uuJ7XZzrMTXCYcaY8KJaakj3RBvyxVYNW  
 
 
 
@@ -62,5 +69,4 @@ https://etherscan.io/token/0x7df4122d3eae29fc8fb6be58d9177e8e560be4fb
 https://bscscan.com/token/0x5db5efaea47662677f2d401504520ce2ea866638  
 
 
-
-
+  
