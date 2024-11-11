@@ -45,14 +45,16 @@ __________________________________________________________
 Tokenized BlockChainCoinX (XCCX)  
 
  
+![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/2a2e259f-efa6-4eea-b885-0c529b77375a)
+  ERC-20 TOKEN CONTRACT  
+https://polygonscan.com/token/0x2075828cdedc356b5358d79cfd314548842e4a2e  
+
+
+
 ![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/640f85a3-309d-487b-b69b-69f587be37fe)
   ERC-20 TOKEN CONTRACT  
 https://etherscan.io/token/0x7df4122d3eae29fc8fb6be58d9177e8e560be4fb  
 
-
-![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/2a2e259f-efa6-4eea-b885-0c529b77375a)
-  ERC-20 TOKEN CONTRACT  
-https://polygonscan.com/token/0x2075828cdedc356b5358d79cfd314548842e4a2e  
 
  
 ![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/2378820a-446f-4505-9dff-4737ff56f8e5)
