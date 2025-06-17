@@ -2,13 +2,34 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+# Enable UPnP support (set to 0 by default, can be disabled with USE_UPNP:=-)
 USE_UPNP:=0
 
-LINK:=$(CXX)
-ARCH:=$(system lscpu | head -n 1 | awk '{print $2}')
+# Specify paths for OpenSSL 1.0.2u, required for compatibility with Ubuntu 20.04
+# Installed in /usr/local/openssl-1.0.2 to avoid conflicts with system OpenSSL
+OPENSSL_INCLUDE_PATH=/usr/local/openssl-1.0.2/include
+OPENSSL_LIB_PATH=/usr/local/openssl-1.0.2/lib
 
+# Specify paths for Boost 1.65.1, necessary for compatibility with the codebase
+# Installed in /usr/local/boost-1.65 to ensure the correct version is used
+BOOST_INCLUDE_PATH=/usr/local/boost-1.65/include
+BOOST_LIB_PATH=/usr/local/boost-1.65/lib
+
+# Specify paths for Berkeley DB 4.8, required for wallet functionality
+# Installed in /usr/local/db-4.8 to match the version used in Ubuntu 18.04
+BDB_INCLUDE_PATH=/usr/local/db-4.8/include
+BDB_LIB_PATH=/usr/local/db-4.8/lib
+
+# Set empty Boost library suffix (no -mt or similar required for Boost 1.65.1)
+BOOST_LIB_SUFFIX=
+
+LINK:=$(CXX)
+ARCH:=$(shell lscpu | head -n 1 | awk '{print $2}')
+
+# Define BOOST_SPIRIT_THREADSAFE for thread-safe parsing
 DEFS=-DBOOST_SPIRIT_THREADSAFE
 
+# Include paths for compilation, using custom OpenSSL, Boost, and Berkeley DB
 DEFS += $(addprefix -I,$(CURDIR) $(CURDIR)/obj $(BOOST_INCLUDE_PATH) $(BDB_INCLUDE_PATH) $(OPENSSL_INCLUDE_PATH))
 LIBS = $(addprefix -L,$(BOOST_LIB_PATH) $(BDB_LIB_PATH) $(OPENSSL_LIB_PATH))
 
@@ -21,17 +42,20 @@ ifdef STATIC
 	endif
 endif
 
-# for boost 1.37, add -mt to the boost libraries
+# Link against Boost, Berkeley DB, and OpenSSL libraries
+# Added boost_chrono for compatibility with certain RPC functions
 LIBS += \
  -Wl,-B$(LMODE) \
    -l boost_system$(BOOST_LIB_SUFFIX) \
    -l boost_filesystem$(BOOST_LIB_SUFFIX) \
    -l boost_program_options$(BOOST_LIB_SUFFIX) \
    -l boost_thread$(BOOST_LIB_SUFFIX) \
+   -l boost_chrono$(BOOST_LIB_SUFFIX) \
    -l db_cxx$(BDB_LIB_SUFFIX) \
    -l ssl \
    -l crypto
 
+# Enable MiniUPnPc for UPnP support if USE_UPNP is not disabled
 ifndef USE_UPNP
 	override USE_UPNP = -
 endif
@@ -40,112 +64,98 @@ ifneq (${USE_UPNP}, -)
 	DEFS += -DUSE_UPNP=$(USE_UPNP)
 endif
 
+# Additional system libraries (zlib, dl, pthread)
 LIBS+= \
  -Wl,-B$(LMODE2) \
    -l z \
    -l dl \
    -l pthread
 
+# Hardening options to improve security
+# Workaround for Ubuntu bug #691722 (stack-protector issue)
+HARDENING=-fno-stack-protector
 
-# Hardening
-# Make some classes of vulnerabilities unexploitable in case one is discovered.
-#
-    # This is a workaround for Ubuntu bug #691722, the default -fstack-protector causes
-    # -fstack-protector-all to be ignored unless -fno-stack-protector is used first.
-    # see: https://bugs.launchpad.net/ubuntu/+source/gcc-4.5/+bug/691722
-    HARDENING=-fno-stack-protector
+# Enable stack canaries to detect buffer overflows
+HARDENING+=-fstack-protector-all -Wstack-protector
 
-    # Stack Canaries
-    # Put numbers at the beginning of each stack frame and check that they are the same.
-    # If a stack buffer if overflowed, it writes over the canary number and then on return
-    # when that number is checked, it won't be the same and the program will exit with
-    # a "Stack smashing detected" error instead of being exploited.
-    HARDENING+=-fstack-protector-all -Wstack-protector
+# Make global offset table read-only and bind symbols at load time
+LDHARDENING+=-Wl,-z,relro -Wl,-z,now
 
-    # Make some important things such as the global offset table read only as soon as
-    # the dynamic linker is finished building it. This will prevent overwriting of addresses
-    # which would later be jumped to.
-    LDHARDENING+=-Wl,-z,relro -Wl,-z,now
-
-    # Build position independent code to take advantage of Address Space Layout Randomization
-    # offered by some kernels.
-    # see doc/build-unix.txt for more information.
-    ifdef PIE
-        HARDENING+=-fPIE
-        LDHARDENING+=-pie
-    endif
-
-    # -D_FORTIFY_SOURCE=2 does some checking for potentially exploitable code patterns in
-    # the source such overflowing a statically defined buffer.
-    HARDENING+=-D_FORTIFY_SOURCE=2
-#
-
-
-DEBUGFLAGS=-g
-
-
-ifeq (${ARCH}, i686)
-    EXT_OPTIONS=-msse2
+# Enable Position Independent Executable (PIE) if specified
+ifdef PIE
+	HARDENING+=-fPIE
+	LDHARDENING+=-pie
 endif
 
+# Enable fortify source for additional buffer overflow checks
+HARDENING+=-D_FORTIFY_SOURCE=2
 
-# CXXFLAGS can be specified on the make command line, so we use xCXXFLAGS that only
-# adds some defaults in front. Unfortunately, CXXFLAGS=... $(CXXFLAGS) does not work.
-xCXXFLAGS=-O2 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter \
-    $(DEBUGFLAGS) $(DEFS) $(HARDENING) $(CXXFLAGS)
+# Enable debug symbols
+DEBUGFLAGS=-g
 
-# LDFLAGS can be specified on the make command line, so we use xLDFLAGS that only
-# adds some defaults in front. Unfortunately, LDFLAGS=... $(LDFLAGS) does not work.
+# Enable SSE2 for i686 architecture
+ifeq (${ARCH}, i686)
+	EXT_OPTIONS=-msse2
+endif
+
+# Compiler flags, including -Wno-nonnull to suppress warnings in bitcoinrpc.cpp
+# This is necessary for successful compilation on Ubuntu 20.04 with GCC
+xCXXFLAGS=-O2 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter -Wno-deprecated-copy -Wno-nonnull \
+	$(DEBUGFLAGS) $(DEFS) $(HARDENING) $(CXXFLAGS)
+
+# Linker flags
 xLDFLAGS=$(LDHARDENING) $(LDFLAGS)
 
+# Object files for compilation
 OBJS= \
-    obj/alert.o \
-    obj/version.o \
-    obj/checkpoints.o \
-    obj/netbase.o \
-    obj/addrman.o \
-    obj/crypter.o \
-    obj/key.o \
-    obj/db.o \
-    obj/init.o \
-    obj/irc.o \
-    obj/keystore.o \
-    obj/miner.o \
-    obj/main.o \
-    obj/net.o \
-    obj/protocol.o \
-    obj/bitcoinrpc.o \
-    obj/rpcdump.o \
-    obj/rpcnet.o \
-    obj/rpcmining.o \
-    obj/rpcwallet.o \
-    obj/rpcblockchain.o \
-    obj/rpcrawtransaction.o \
-    obj/script.o \
-    obj/sync.o \
-    obj/util.o \
-    obj/wallet.o \
-    obj/walletdb.o \
-    obj/noui.o \
-    obj/kernel.o \
-    obj/pbkdf2.o \
-    obj/scrypt.o \
-    obj/scrypt-arm.o \
-    obj/scrypt-x86.o \
-    obj/scrypt-x86_64.o \
-    obj/zerocoin/Accumulator.o \
-    obj/zerocoin/AccumulatorProofOfKnowledge.o \
-    obj/zerocoin/Coin.o \
-    obj/zerocoin/CoinSpend.o \
-    obj/zerocoin/Commitment.o \
-    obj/zerocoin/ParamGeneration.o \
-    obj/zerocoin/Params.o \
-    obj/zerocoin/SerialNumberSignatureOfKnowledge.o \
-    obj/zerocoin/SpendMetaData.o \
-    obj/zerocoin/ZeroTest.o
+	obj/alert.o \
+	obj/version.o \
+	obj/checkpoints.o \
+	obj/netbase.o \
+	obj/addrman.o \
+	obj/crypter.o \
+	obj/key.o \
+	obj/db.o \
+	obj/init.o \
+	obj/irc.o \
+	obj/keystore.o \
+	obj/miner.o \
+	obj/main.o \
+	obj/net.o \
+	obj/protocol.o \
+	obj/bitcoinrpc.o \
+	obj/rpcdump.o \
+	obj/rpcnet.o \
+	obj/rpcmining.o \
+	obj/rpcwallet.o \
+	obj/rpcblockchain.o \
+	obj/rpcrawtransaction.o \
+	obj/script.o \
+	obj/sync.o \
+	obj/util.o \
+	obj/wallet.o \
+	obj/walletdb.o \
+	obj/noui.o \
+	obj/kernel.o \
+	obj/pbkdf2.o \
+	obj/scrypt.o \
+	obj/scrypt-arm.o \
+	obj/scrypt-x86.o \
+	obj/scrypt-x86_64.o \
+	obj/zerocoin/Accumulator.o \
+	obj/zerocoin/AccumulatorProofOfKnowledge.o \
+	obj/zerocoin/Coin.o \
+	obj/zerocoin/CoinSpend.o \
+	obj/zerocoin/Commitment.o \
+	obj/zerocoin/ParamGeneration.o \
+	obj/zerocoin/Params.o \
+	obj/zerocoin/SerialNumberSignatureOfKnowledge.o \
+	obj/zerocoin/SpendMetaData.o \
+	obj/zerocoin/ZeroTest.o
 
 all: blockchaincoinxd
 
+# Include LevelDB libraries
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/helpers)
@@ -154,7 +164,7 @@ leveldb/libleveldb.a:
 	@echo "Building LevelDB ..."; cd leveldb; make libleveldb.a libmemenv.a; cd ..;
 obj/txdb-leveldb.o: leveldb/libleveldb.a
 
-# auto-generated dependencies:
+# Auto-generated dependencies
 -include obj/*.P
 
 obj/build.h: FORCE
@@ -162,6 +172,7 @@ obj/build.h: FORCE
 version.cpp: obj/build.h
 DEFS += -DHAVE_BUILD_INFO
 
+# Compile assembly files for scrypt
 obj/scrypt-x86.o: scrypt-x86.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
@@ -171,6 +182,7 @@ obj/scrypt-x86_64.o: scrypt-x86_64.S
 obj/scrypt-arm.o: scrypt-arm.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
+# Compile C++ files
 obj/%.o: %.cpp
 	$(CXX) -c $(xCXXFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
 	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
@@ -178,6 +190,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
+# Compile Zerocoin C++ files
 obj/zerocoin/%.o: zerocoin/%.cpp
 	$(CXX) -c $(xCXXFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
 	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
@@ -185,9 +198,11 @@ obj/zerocoin/%.o: zerocoin/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
+# Link the executable
 blockchaincoinxd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
+# Clean build artifacts
 clean:
 	-rm -f blockchaincoinxd
 	-rm -f obj/*.o
