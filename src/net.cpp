@@ -1106,13 +1106,15 @@ void ThreadMapPort2(void* parg)
     struct UPNPDev * devlist = 0;
     char lanaddr[64];
 
+// Support both MiniUPnPc 1.5 and 1.6+ for UPnP discovery.
+// MiniUPnPc 1.5 uses a 4-argument upnpDiscover, while 1.6+ requires ipv6, ttl, and error parameters.
 #ifndef UPNPDISCOVER_SUCCESS
     /* miniupnpc 1.5 */
     devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0);
 #else
-    /* miniupnpc 1.6 */
+    /* miniupnpc 1.6 and later */
     int error = 0;
-    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, &error);
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, 2, &error);
 #endif
 
     struct UPNPUrls urls;
