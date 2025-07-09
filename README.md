@@ -14,7 +14,8 @@ for non-reversible intellectual property services.
 
   
  
-*XCCX* is a cryptocurrency blockchain,  
+*XCCX* is a cryptocurrency blockchain, 
+
 purely designed, to secure an on-chain,  
 distributed UTXO ledger.
 
@@ -29,6 +30,7 @@ __________________________________________________________
 
 *XCCX Infinity Update   11/11/21 (Mandatory)*  
 (1.0.0./60016 is not supported 12/11/21)  
+
  
 *XCCX Infinity (61116) !YaY! 03/20/22 (Mandatory)*  
 (1.1.0. is not supported 03/20/22) by U.A.S.F.  
@@ -45,6 +47,12 @@ __________________________________________________________
 Tokenized BlockChainCoinX (XCCX)  
 
 
+![baselilogo](https://github.com/user-attachments/assets/73d6c6fc-5037-4df8-9501-a1dd60051657)
+  BASE TOKEN CONTRACT  
+https://basescan.org/token/0x6f8c1de07c9e59a8289705b1033af383dc3681b1
+
+
+
  
 ![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/2a2e259f-efa6-4eea-b885-0c529b77375a)
   POL ERC-20 TOKEN CONTRACT  
@@ -52,15 +60,11 @@ https://polygonscan.com/token/0x2075828cdedc356b5358d79cfd314548842e4a2e
 
 
 
-![solana](https://github.com/user-attachments/assets/4a46a710-97d4-4258-a8fa-ecf511652e13)
-  SPL TOKEN CONTRACT  
-https://solscan.io/token/giSmRQsV12uuJ7XZzrMTXCYcaY8KJaakj3RBvyxVYNW  
-
-
 
 ![image](https://github.com/5erendipity/BlockChainCoinX/assets/76568125/640f85a3-309d-487b-b69b-69f587be37fe)
   ERC-20 TOKEN CONTRACT  
 https://etherscan.io/token/0x7df4122d3eae29fc8fb6be58d9177e8e560be4fb  
+
 
 
  
